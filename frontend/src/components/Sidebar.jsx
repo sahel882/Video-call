@@ -48,7 +48,7 @@ const Sidebar = ({ isOpen, onClose }) => {
             </Link>
 
             <Link
-              to="/friends"
+              to="#"
               className={`btn btn-ghost justify-start w-full gap-3 px-3 normal-case ${currentPath === "/friends" ? "btn-active" : ""
                 }`}
             >
